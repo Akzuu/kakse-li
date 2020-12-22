@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import { Container, Box } from '@material-ui/core';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
+  const [tab = 'Home', setTab] = useState();
+
+  const handleTabChange = (newTab) => {
+    setTab(newTab);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container maxWidth="md" className="container">
+        <div className="top">
+
+          <Header tab={tab} handleTabChange={handleTabChange} />
+          <Content tab={tab} />
+
+        </div>
+      </Container>
+      <div className="footer">
+        <Box color="white" bgcolor="black" p={1} boxShadow={3}>
+          <Footer />
+        </Box>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
