@@ -1,5 +1,4 @@
 name: deploy-to-kapsi
-environment: main
 on: [push]
 jobs:
   build-and-deploy:
@@ -24,6 +23,7 @@ jobs:
 
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.1.5
+        environment: main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           SOURCE: "build/"
