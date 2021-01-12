@@ -24,8 +24,8 @@ jobs:
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
-          SSH_PRIVATE_KEY: sss
+          SSH_PRIVATE_KEY: ${{ main.SERVER_SSH_KEY }}
           SOURCE: "build/"
-          REMOTE_HOST: ddd
-          REMOTE_USER: hhh
-          TARGET: ggg
+          REMOTE_HOST: ${{ main.REMOTE_HOST }}
+          REMOTE_USER: ${{ main.REMOTE_USER }}
+          TARGET: ${{ main.REMOTE_TARGET }}
