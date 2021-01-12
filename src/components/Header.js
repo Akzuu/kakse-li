@@ -10,15 +10,15 @@ const Header = ({ tab, handleTabChange }) => (
       src={topBanner}
       alt=""
       style={{
-        maxHeight: 400, width: '100%', objectFit: 'cover',
+        maxHeight: 150, width: '100%', objectFit: 'cover',
       }}
     />
     <AppBar position="static" style={{ backgroundColor: 'white', color: 'black', marginTop: '-3px' }}>
       <Tabs centered value={tab}>
         <Tab label="Home" value="Home" onClick={() => { handleTabChange('Home'); }} />
-        <Tab label="About" value="About" onClick={() => { handleTabChange('About'); }} />
         <Tab label="Resume" value="Resume" onClick={() => { handleTabChange('Resume'); }} />
-        <Tab label="GitHub (link)" value="Github" onClick={() => { window.open('http://github.com/Akzuu'); }} />
+        <Tab label="Contact" value="Contact" onClick={() => { handleTabChange('Contact'); }} />
+        <Tab label="Hobbies" value="Hobbies" onClick={() => { handleTabChange('Hobbies'); }} />
       </Tabs>
     </AppBar>
   </div>

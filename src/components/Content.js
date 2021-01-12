@@ -1,29 +1,26 @@
 import './Content.css';
+import { Container } from '@material-ui/core';
 import Home from './Home';
-import About from './About';
+import Contact from './Contact';
 import Resume from './Resume';
 
+const contentGenerator = (content) => (
+  <div className="content">
+    <Container maxWidth="sm">
+      { content }
+    </Container>
+  </div>
+);
+
 const Content = ({ tab = 'Home' }) => {
-  if (tab === 'About') {
-    return (
-      <div className="content">
-        <About />
-      </div>
-    );
+  if (tab === 'Contact') {
+    return contentGenerator(<Contact />);
   }
   if (tab === 'Resume') {
-    return (
-      <div className="content">
-        <Resume />
-      </div>
-    );
+    return contentGenerator(<Resume />);
   }
 
-  return (
-    <div className="content">
-      <Home />
-    </div>
-  );
+  return contentGenerator(<Home />);
 };
 
 export default Content;

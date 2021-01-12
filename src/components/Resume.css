@@ -1,0 +1,17 @@
+h2 {
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: small;
+}
