@@ -16,7 +16,7 @@ const Resume = () => (
       <Grid item xs>
         <Box bgcolor="rgba(125, 249, 255, 0.3)" p={1} boxShadow={3}>
           <h2>Education</h2>
-          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={1} boxShadow={3}>
+          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={2} boxShadow={3}>
             <h4>Master of Science (Technology)</h4>
             <h6>Program: Software Engineering</h6>
             <h6>Tampere University | 2017 - </h6>
@@ -25,7 +25,7 @@ const Resume = () => (
               My bachelor&apos;s thesis focused on serverless architecture.
             </p>
           </Box>
-          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={1} boxShadow={3}>
+          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={2} boxShadow={3} style={{ marginTop: '10px' }}>
             <h4>High School Graduate</h4>
             <h6>Viitasaaren Lukio | 2013-2016 </h6>
           </Box>
@@ -34,7 +34,7 @@ const Resume = () => (
       <Grid item xs>
         <Box bgcolor="rgba(50,205,50, 0.3)" p={1} boxShadow={3}>
           <h2>Employment History</h2>
-          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={1} boxShadow={3}>
+          <Box bgcolor="rgba(255, 255, 255, 0.5)" p={2} boxShadow={3}>
             <h4>Software Developer Trainee</h4>
             <h6>Plugit Finland Oy | May 2019 - Aug 2019</h6>
             <p>

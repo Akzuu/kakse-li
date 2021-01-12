@@ -6,7 +6,7 @@ import Resume from './Resume';
 
 const contentGenerator = (content) => (
   <div className="content">
-    <Container maxWidth="sm">
+    <Container maxWidth="lg">
       { content }
     </Container>
   </div>
