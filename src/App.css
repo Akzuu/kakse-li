@@ -3,8 +3,9 @@
 }
 
 .top {
-  min-height: calc(100vh);
+  min-height: calc(100vh - 1000px);
 }
+
 .footer {
-  height: 0px;
+  height: 24px;
 }

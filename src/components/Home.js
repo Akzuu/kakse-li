@@ -6,8 +6,8 @@ const Home = () => (
   <div>
     <Grid
       container
-      spacing={5}
-      style={{ marginTop: '10px' }}
+      spacing={0}
+      style={{ marginTop: '20px' }}
     >
       <Grid item xs>
         <Box bgcolor="rgba(255, 255, 255, 0.5)" p={1} boxShadow={3}>

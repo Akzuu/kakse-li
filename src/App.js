@@ -24,7 +24,9 @@ const App = () => {
       </Container>
       <div className="footer">
         <Box color="white" bgcolor="black" p={1} boxShadow={3}>
+
           <Footer />
+
         </Box>
       </div>
     </div>

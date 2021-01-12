@@ -1,6 +1,6 @@
 .content {
   background-color: rgba(131, 131, 131, 0.349);
-  min-height: calc(55vh + 150px);
+  min-height: calc(100vh - 24px - 229px);
   padding-bottom: 12px;
   padding-top: 1px;
   text-align: justify;

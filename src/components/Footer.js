@@ -13,13 +13,13 @@ const Footer = () => (
         justify="space-between"
         alignItems="flex-start"
         spacing={0}
-        style={{ marginTop: '0px', marginBottom: '-10px' }}
+        style={{ marginTop: '0px', marginBottom: '-8px' }}
       >
         <Grid item xs>
           <Link
             color="inherit"
             target="_blank"
-            href="mailto:contact@kakse.li"
+            href="mailto:akseli.kolari@kakse.li"
             rel="noreferrer"
           >
             <MailOutline style={{
