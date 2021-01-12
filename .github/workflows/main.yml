@@ -27,8 +27,3 @@ jobs:
 
       - name: Testing
       - run: ls
-
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - run: ls
