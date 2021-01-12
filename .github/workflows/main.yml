@@ -1,4 +1,5 @@
 name: deploy-to-kapsi
+environment: main
 on: [push]
 jobs:
   build-and-deploy:
@@ -26,6 +27,6 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ main.SERVER_SSH_KEY }}
           SOURCE: "build/"
-          REMOTE_HOST: ${{ main.REMOTE_HOST }}
-          REMOTE_USER: ${{ main.REMOTE_USER }}
-          TARGET: ${{ main.REMOTE_TARGET }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
