@@ -1,5 +1,8 @@
 name: deploy-to-kapsi
-on: [push]
+on: 
+  push:
+    tags:
+      - latest
 jobs:
   build-and-deploy:
     environment: main
