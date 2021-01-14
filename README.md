@@ -9,3 +9,9 @@ This repository is the source code for my personal website running at https://ka
 ## Running in local env
     npm install
     npm start
+
+## GitHub Actions
+GitHub Actions are used for automatic deployment of the site. It will build the site and then
+deploy it to server using SSH (https://github.com/marketplace/actions/remote-ssh-commands).
+
+Deployment action is only run, when the tag "latest" is used with commit.
