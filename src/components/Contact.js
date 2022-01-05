@@ -20,12 +20,12 @@ const Contact = () => (
         >
 
           <Grid item xs>
-            <Link href="mailto:akseli.kolari@kakse.li">
+            <Link href="mailto:contact@kakse.li">
               <MailOutline style={{
                 position: 'relative', top: 7, paddingRight: 4, fontSize: '26px',
               }}
               />
-              akseli.kolari@kakse.li
+              contact@kakse.li
             </Link>
           </Grid>
           <Grid item xs>
