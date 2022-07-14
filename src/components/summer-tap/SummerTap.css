@@ -20,7 +20,7 @@
 
 .havana-link {
   color: rgb(255, 255, 255);
-  font-size: 32px;
+  font-size: 24px;
   text-align: left;
   padding: 0 10%;
   text-shadow: 2px 2px 2px rgb(106, 255, 0);
@@ -46,7 +46,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 92px;
+  font-size: 64px;
 }
 
 @keyframes textclip {
