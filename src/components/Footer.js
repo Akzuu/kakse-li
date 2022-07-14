@@ -2,7 +2,6 @@ import { Link, Grid, Container } from '@material-ui/core';
 import { MailOutline } from '@material-ui/icons';
 import GithubIcon from '../img/GitHub-Mark-Light-64px.png';
 import LinkedInIcon from '../img/LI-Light.png';
-import InstagramIcon from '../img/IG-Light.png';
 
 const Footer = () => (
   <div>
@@ -26,11 +25,6 @@ const Footer = () => (
               position: 'relative', top: '-2px', paddingRight: 4, fontSize: '29px',
             }}
             />
-          </Link>
-        </Grid>
-        <Grid item xs>
-          <Link target="_blank" href="https://www.instagram.com/akzu404/" rel="noreferrer">
-            <img height="24px" src={InstagramIcon} alt="Instagram icon " />
           </Link>
         </Grid>
         <Grid item xs>

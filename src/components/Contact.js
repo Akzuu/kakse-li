@@ -5,7 +5,6 @@ import {
 import { MailOutline } from '@material-ui/icons';
 import GithubIcon from '../img/GitHub-Mark-32px.png';
 import LinkedInIcon from '../img/LI.png';
-import InstagramIcon from '../img/IG.png';
 
 const Contact = () => (
   <div className="contact">
@@ -26,12 +25,6 @@ const Contact = () => (
               }}
               />
               contact@kakse.li
-            </Link>
-          </Grid>
-          <Grid item xs>
-            <Link target="_blank" href="https://www.instagram.com/akzu404/" rel="noreferrer">
-              <img height="24px" style={{ position: 'relative', top: 5, paddingRight: 2 }} src={InstagramIcon} alt="Instagram icon " />
-              Instagram
             </Link>
           </Grid>
           <Grid item xs>
