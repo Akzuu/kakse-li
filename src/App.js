@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import { Container, Box } from '@material-ui/core';
+
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
