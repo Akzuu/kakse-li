@@ -9,7 +9,7 @@ const SummerTap = () => (
       Luvassa on ainakin saunomista, holittomia ja holillisia drinkkejä
       sekä tunnelmaa luovaa musiikkia!
     </p>
-    <a className="havana-link" href={process.env.REACT_APP_SECRET_LINK}>Klikkaa tästä Telegrammiin</a>
+    <a className="havana-link" href=https://t.me/+cY5ENwv8eaMzMjVk>Klikkaa tästä Telegrammiin</a>
   </div>
 );
 
